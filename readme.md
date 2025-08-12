@@ -29,7 +29,7 @@ curl http://localhost:8000/transactions/ordered | jq .
 make test
 ```
 
-# Written part
+# Writting part
 
 ## Go To prod:
 - Env vars, it's not good to keep sensible project data in your code
@@ -90,4 +90,5 @@ Please complete the following (based on and using the code provided)
 ```
 - Instead of displaying the PAN with GetTransactions it is preferred to only display the last four digits and replace the rest of the PAN with `*`; create a function to achieve this and ensure that all output is handled in this way
 - Create an endpoint that returns the transactions ordered by descending posted_timestamp 
+
 - Create a test for GetTransactions and your new functions
